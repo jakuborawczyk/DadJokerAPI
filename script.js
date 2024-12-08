@@ -12,7 +12,7 @@ jokeButton.addEventListener("click", async () => {
     rickrollAudio.play(); // Spela upp musiken
   }
 
-  // Hämta skämtet från ett öppet API
+  // Hämta skämtet från ett API
   const jokeResponse = await fetch("https://icanhazdadjoke.com/", {
     headers: { Accept: "application/json" },
   });
